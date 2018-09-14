@@ -244,12 +244,12 @@ $ sudo apt-get install postgresql postgresql-contrib
 $ sudo -u postgres psql
 
 create a new user catalog
-1. # CREATE USER catalog WITH PASSWORD 'catalog';
-2. # ALTER USER catalog CREATEDB
-3. # CREATE DATABASE catalog WITH OWNER catalog;
-4. # \c catalog
-5. # REVOKE ALL ON SCHEMA public FROM public;
-6. # GRANT ALL ON SCHEMA public TO catalog;
+1. `# CREATE USER catalog WITH PASSWORD 'catalog';`
+2. `# ALTER USER catalog CREATEDB`
+3. `# CREATE DATABASE catalog WITH OWNER catalog;`
+4. `# \c catalog`
+5. `# REVOKE ALL ON SCHEMA public FROM public;`
+6. `# GRANT ALL ON SCHEMA public TO catalog;`
 7. \q 
 8. deactivate
 9. Make changes to databse_setup.py 
